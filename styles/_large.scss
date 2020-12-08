@@ -1,0 +1,37 @@
+@import './variables';
+
+
+header {
+    width: 75rem;
+    div {
+        width: 73rem;
+    }
+}
+
+nav {
+    width: 75rem;
+    justify-content: flex-start;
+    a {
+        width: 10%;
+        border: none;
+        border-right: solid 1px $prime;
+    }
+}
+
+
+main {
+    width: 75rem;
+    h1 {
+        width: 75rem;
+    }
+}
+
+.members {
+    width: 75rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, auto);
+}
+
+footer {
+    width: 75rem;
+}
